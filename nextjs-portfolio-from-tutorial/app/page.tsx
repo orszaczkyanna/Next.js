@@ -1,5 +1,6 @@
 import { FaHome } from "react-icons/fa";
 import { FloatingNav } from "@/components/ui/FloatingNav";
+import { navItems } from "@/data";
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
@@ -12,9 +13,7 @@ export default function Home() {
       sm:px-10 for mobile responsibility
       */}
       <div className="max-w-7xl w-full">
-        <FloatingNav
-          navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}
-        />
+        <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
         <RecentProjects />
