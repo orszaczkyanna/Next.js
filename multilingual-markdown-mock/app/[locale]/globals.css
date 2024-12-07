@@ -19,3 +19,13 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  .section {
+    @apply pt-8;
+  }
+
+  .section-title {
+    @apply text-2xl font-bold pb-2;
+  }
+}

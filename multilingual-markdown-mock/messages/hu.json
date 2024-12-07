@@ -2,5 +2,26 @@
   "HomePage": {
     "title": "Helló világ!",
     "about": "Ugrás a 'bemutatkozás' oldalra"
+  },
+  "Projects": {
+    "title": "Legújabb Projektek",
+    "list": {
+      "project1": {
+        "title": "Első Projekt",
+        "description": "Ez az első projekt leírása"
+      },
+      "project2": {
+        "title": "Második Projekt",
+        "description": "Ez a második projekt leírása"
+      },
+      "project3": {
+        "title": "Harmadik Projekt",
+        "description": "Ez a harmadik projekt leírása"
+      },
+      "project4": {
+        "title": "Negyedik Projekt",
+        "description": "Ez a negyedik projekt leírása"
+      }
+    }
   }
 }
