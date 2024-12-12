@@ -12,6 +12,11 @@ export default function HomePage() {
       </header>
       <nav></nav>
       <main>
+        <section className="mt-5">
+          <Link href="/mdx-page" className="text-2xl text-blue-700 underline">
+            MDX PAGE
+          </Link>
+        </section>
         <Projects />
       </main>
       <footer></footer>
